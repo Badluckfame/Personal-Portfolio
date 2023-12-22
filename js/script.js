@@ -1,5 +1,11 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+let sendMessageBtn=document.getElementById('sendMessage');
+
+
+sendMessageBtn.onclick=()=>{
+    alert("Your message has been sent successfully");
+}
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
